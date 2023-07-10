@@ -36,20 +36,20 @@ const About = () => {
 					<div className="about__cards">
 						<article
 							className="about__card"
-							onClick={() => handleCardClick(contentData.info)}
-						>
-							<MdOutlinePersonSearch className="about__icon" />
-							<h5>Personal</h5>
-							<small>Info</small>
-						</article>
-
-						<article
-							className="about__card"
 							onClick={() => handleCardClick(contentData.studies)}
 						>
 							<TbSchool className="about__icon" />
 							<h5>Studies</h5>
 							<small>IT courses</small>
+						</article>
+
+						<article
+							className="about__card"
+							onClick={() => handleCardClick(contentData.info)}
+						>
+							<MdOutlinePersonSearch className="about__icon" />
+							<h5>Personal</h5>
+							<small>Info</small>
 						</article>
 
 						<article
