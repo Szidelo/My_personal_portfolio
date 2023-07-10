@@ -1,0 +1,129 @@
+.experience__container {
+    display: grid;
+	grid-template-columns: 50% 35%;
+	gap: 15%;
+}
+
+.experience__frontend {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.experience__frontend:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__frontend h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--color-primary);
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience__details {
+    display: flex;
+    gap: 1rem;
+}
+
+.experience__details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.experience__other {
+    width: 100%;
+	aspect-ratio: 1/1;
+	border-radius: 2rem;
+	background: linear-gradient(
+		135deg,
+		transparent,
+		var(--color-primary-variant),
+		transparent
+	);
+    display: grid;
+    place-items: center;
+    width: 375px;
+}
+
+.experience__image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+    transition: var(--transition);
+    height: 100%;
+    object-fit: cover;
+    width: 375px;
+}
+
+#exp-img {
+    height: 100%;
+    object-fit: cover;
+    width: 375px;
+}
+
+.experience__image:hover {
+    transform: rotate(0);
+}
+
+/* --------------------media queries tab-----------------*/
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__other {
+        margin: 2rem auto 4rem;
+    }
+
+    .experience__frontend {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+
+    .experience__content {
+        padding: 1rem;
+    }
+}
+
+/* --------------------media queries mobile-----------------*/
+@media screen and (max-width: 600px) {
+
+    .experience__container {
+        gap: 1rem;
+    }
+ 
+    .experience__other {
+        margin: 0 auto;
+        width: 340px;
+    }
+    .experience__frontend {
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: 0 auto 4rem;
+    }
+
+    .experience__image {
+
+        transform: rotate(0deg);
+        width: 340px;
+
+    }
+
+    #exp-img {
+
+        width: 340px;
+    }
+
+}
