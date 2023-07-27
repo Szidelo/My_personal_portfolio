@@ -12,9 +12,9 @@ const data = [
 	{
 		id: 1,
 		image: IMG1,
-		title: "Actor List",
-		github: "https://github.com/Szidelo/actor_list",
-		demo: "https://szidelo.github.io/actor_list/",
+		title: "Age Calculator",
+		github: "https://github.com/Szidelo/age_calculator_app",
+		demo: "https://szidelo.github.io/age_calculator_app/",
 	},
 	{
 		id: 2,
