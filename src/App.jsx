@@ -7,10 +7,12 @@ import Expericence from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Footer from './components/footer/Footer'
+import ParticlesJs from "./components/Particles/ParticlesJs";
 
 const App = () => {
 	return (
 		<>
+			<ParticlesJs/>
 			<Header/>
 			<Nav/>
 			<About/>

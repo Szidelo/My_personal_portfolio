@@ -8,12 +8,12 @@
 	width: 100%;
 	aspect-ratio: 1/1;
 	border-radius: 2rem;
-	background: linear-gradient(
+	/* background: linear-gradient(
 		45deg,
 		transparent,
 		var(--color-primary-variant),
 		transparent
-	);
+	); */
     display: grid;
     place-items: center;
     width: 375px;
@@ -38,6 +38,7 @@
 
 .about__me-image:hover {
     scale: 1.1;
+    box-shadow: var(--shadow-red);
 }
 
 .about__cards {
@@ -47,18 +48,20 @@
 }
 
 .about__card {
-    background: var(--color-bg-variant);
+    background: rgba(0,0,0,0.5);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary--variant);
-    cursor: default;
+    border-color: var(--color-primary-variant);
+    box-shadow: var(--shadow-red);
+    backdrop-filter: blur(2.5px);
 }
 
 .about__icon {

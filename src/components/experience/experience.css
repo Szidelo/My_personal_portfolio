@@ -16,6 +16,8 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    box-shadow: var(--shadow-red);
+    backdrop-filter: blur(2.5px);
 }
 
 .experience__frontend h3 {
