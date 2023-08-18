@@ -36,7 +36,7 @@ header {
 /*-------------------cta--------------*/
 
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -92,9 +92,5 @@ header {
 
     .header__socials, .scroll__down{
         display: none;
-    }
-
-    .my-img {
-        margin-top: 4rem;
     }
 }

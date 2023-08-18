@@ -1,12 +1,12 @@
 import React from "react";
 import "./experience.css";
 import { BsFillCheckCircleFill } from "react-icons/bs";
-import EXPIMG from "../../assets/exp1.jpg";
+import { SiAbletonlive } from "react-icons/si";
+import { BsSoundwave } from "react-icons//bs";
 
 const Experience = () => {
 	return (
 		<section id="experience">
-			<h5>What I Can Offer</h5>
 			<h2>Skills</h2>
 
 			<div className="container experience__container">
@@ -54,7 +54,7 @@ const Experience = () => {
 						</article>
 
 						<article className="experience__details">
-							<BsFillCheckCircleFill className="experience__details-icon"/>
+							<BsFillCheckCircleFill className="experience__details-icon" />
 							<div>
 								<h4>React</h4>
 								<small className="text-light">Beginner</small>
@@ -64,8 +64,21 @@ const Experience = () => {
 				</div>
 
 				<div className="experience__other">
-					<div className="experience__image">
-						<img src={EXPIMG} alt="" id="exp-img" />
+					<h3>Sound Design</h3>
+					<div className="sound">
+						
+						<SiAbletonlive className="experience__details-icon-sound" />
+						<div>
+							<h4>Ableton</h4>
+							<small className="text-light">Beginner Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aperiam?</small>
+						</div>
+
+						<BsSoundwave className="experience__details-icon-sound" />
+
+						<div>
+							<h4>Analog Synthesizers</h4>
+							<small className="text-light">Beginner Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aperiam?</small>
+						</div>
 					</div>
 				</div>
 			</div>
