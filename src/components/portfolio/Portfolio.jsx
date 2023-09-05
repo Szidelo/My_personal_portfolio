@@ -33,16 +33,16 @@ const data = [
 	{
 		id: 4,
 		image: IMG4,
-		title: "Weather App",
-		github: "https://github.com/Szidelo/weather-appv1",
-		demo: "https://szidelo.github.io/weather-appv1/",
+		title: "Book WebFlow",
+		github: "https://github.com/Szidelo/Book-ECommerce",
+		demo: "https://szidelo.github.io/Book-ECommerce/pages/about.html",
 	},
 	{
 		id: 5,
 		image: IMG5,
-		title: "Shopping List",
-		github: "https://github.com/Szidelo/Shopping-list",
-		demo: "https://szidelo.github.io/Shopping-list/",
+		title: "Hero Game",
+		github: "https://github.com/Szidelo/hero-game",
+		demo: "https://szidelo.github.io/hero-game/",
 	},
 	{
 		id: 6,
